@@ -27,11 +27,11 @@ function verificarChute() {
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
         if (chute > numeroSecreto) {
-            exibirTextoNaTela('h1', 'Oops! Você perdeu essa. Mas não se preocupe, você pode tentar novamente!');
-            exibirTextoNaTela('p', 'O número secreto é maior.');
-        } else {
-            exibirTextoNaTela('h1', 'Oops! Você perdeu essa. Mas não se preocupe, você pode tentar novamente!');
+            exibirTextoNaTela('h1', 'Oops! Você perdeu essa. Tente novamente!');
             exibirTextoNaTela('p', 'O número secreto é menor.');
+        } else {
+            exibirTextoNaTela('h1', 'Oops! Você perdeu essa. Tente novamente!');
+            exibirTextoNaTela('p', 'O número secreto é maior');
         }
         tentativas++;
         limparCampo();
@@ -66,10 +66,3 @@ function reiniciarJogo() {
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
-
-
-
-
-
-
-
