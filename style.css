@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
     margin: 0;
@@ -138,3 +139,145 @@ button:disabled {
         padding: 1rem
     }
 }
+=======
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#826398 0%, #8b6ca1 33.33%,  #d3a2cf 66.67%, #ad7dc2 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body::before {
+    background-image: url("img/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #826398;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-image: url("img/Ruido.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+.container__conteudo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.container__informacoes {
+    flex: 1;
+    padding: 3rem;
+}
+
+.container__botao {
+    border-radius: 16px;
+    background: #826398;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+}
+
+.container__texto {
+    margin: 200px 0 0 0;
+}
+
+.container__texto-roxo {
+    color: #826398;
+}
+
+.container__input {
+    width: 100%;
+    height: 30px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: none;
+    color: #826398;
+    padding: 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Kreon', serif;
+}
+
+.container__botoes {
+    display: flex;
+    gap: 2em;
+}
+
+h1 {
+    font-family: 'Kreon', sans-serif;
+    font-size: 40px;
+    padding-bottom: 3rem;
+}
+
+p,
+button {
+    font-family: 'Kreon', serif;
+}
+
+.texto__paragrafo {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button:disabled {
+    background-color: gray;
+}
+
+@media screen and (max-width: 1250px) {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .container__botao {
+        font-size: 14px;
+    }
+
+
+    .texto__paragrafo {
+        font-size: 24px;
+    }
+
+    .container__imagem-pessoa {
+        display: none;
+    }
+
+    .container__conteudo {
+        display: block;
+        position: inherit;
+    }
+
+    .container__informacoes {
+        padding: 1rem
+    }
+}
+>>>>>>> 4ec3013bae077f132139313fcea3f78d2762db88
