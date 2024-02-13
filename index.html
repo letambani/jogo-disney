@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- 
+
+"We keep moving forward, opening new doors, and 
+ doing new things, because we're curious...
+  and curiosity keeps leading us down new paths."
+
+                          Walt Disney
+-->
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=Dex9BWKC"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Disney</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>Olá, bem-vindo ao jogo do <span class="container__texto-roxo">número secreto!</span></h1>
+                    <p class="texto__paragrafo">Escolha um número entre 1 a 10</p>
+                </div>
+                <input type="number" min="1" max="10" class="container__input">
+                <div class="chute container__botoes">
+                    <button onclick="verificarChute()" class="container__botao">Chutar</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+                </div>
+            </div>
+            <img src="./img/ia.png" alt="Imagem de um bingo da Disney" class="container__imagem-pessoa" />
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
