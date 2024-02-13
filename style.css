@@ -33,7 +33,7 @@ body::before {
     align-items: center;
     justify-content: space-between;
     border-radius: 24px;
-    border: 1px solid #1875E8;
+    border: 1px solid #826398;
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
     background-image: url("img/Ruido.png");
     background-size: 100% 100%;
@@ -55,34 +55,34 @@ body::before {
 
 .container__botao {
     border-radius: 16px;
-    background: #1875E8;
+    background: #826398;
     padding: 16px 24px;
     width: 100%;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     border: none;
     margin-top: 2rem;
 }
 
 .container__texto {
-    margin: 16px 0 16px 0;
+    margin: 200px 0 0 0;
 }
 
-.container__texto-azul {
-    color: #1875E8;
+.container__texto-roxo {
+    color: #826398;
 }
 
 .container__input {
     width: 100%;
-    height: 72px;
+    height: 30px;
     border-radius: 16px;
     background-color: #FFF;
     border: none;
-    color: #1875E8;
+    color: #826398;
     padding: 2rem;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kreon', serif;
 }
 
 .container__botoes {
@@ -91,18 +91,18 @@ body::before {
 }
 
 h1 {
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
+    font-family: 'Kreon', sans-serif;
+    font-size: 40px;
     padding-bottom: 3rem;
 }
 
 p,
 button {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kreon', serif;
 }
 
 .texto__paragrafo {
-    font-size: 32px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -113,11 +113,11 @@ button:disabled {
 @media screen and (max-width: 1250px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 70px;
     }
 
     .container__botao {
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
